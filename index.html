@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IBDP Vault · Free IB revision</title>
+  <meta name="description" content="Free, syllabus-focused revision for Grade 11–12 IB Diploma students: topic summaries, key terms, practice questions and exam tips.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231c1b19'/%3E%3Ctext x='16' y='21' font-family='Arial' font-weight='700' font-size='13' fill='white' text-anchor='middle'%3EIB%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">IB</span>IBDP Vault</a>
+      <nav>
+        <a href="#subjects-top">Subjects</a>
+        <a href="#about" class="hide-sm">About</a>
+        <button class="icon-btn" id="theme-btn" aria-label="Toggle dark mode" title="Toggle dark mode"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>All your IB revision in one place.</h1>
+      <p>Topic summaries, key terms, practice questions and exam tips for Grade 11–12 IB Diploma students — organised by the syllabus, free to use.</p>
+      <div class="search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <label for="search" class="sr-only">Search topics and key terms</label>
+        <input id="search" type="search" placeholder="Search a topic or key term…" autocomplete="off">
+      </div>
+      <div class="results" id="results" hidden></div>
+    </section>
+
+    <div id="subjects-top"></div>
+    <div id="subjects"><p class="muted">Loading subjects…</p></div>
+
+    <section class="info-row" id="about">
+      <div class="info">
+        <h3>How to use it</h3>
+        <p>Open a subject, pick a topic, read the summary, then test yourself with the key-term flashcards and practice questions. Tick “Mark as revised” to track your progress (saved in your browser only).</p>
+      </div>
+      <div class="info">
+        <h3>Syllabus-first</h3>
+        <p>Every subject follows the current IB subject guide. Assessment weightings and topic lists are on each subject's overview page. Always check with your teacher for your school's options.</p>
+      </div>
+      <div class="info">
+        <h3>Who made this</h3>
+        <p>A student-run CAS project by Neel and Aarjav. Spotted a mistake or want to contribute notes for a subject? Talk to us at school.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">IBDP Vault · a free CAS project for DP students. Not affiliated with or endorsed by the International Baccalaureate Organization.</div>
+  </footer>
+
+  <script src="subjects.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
